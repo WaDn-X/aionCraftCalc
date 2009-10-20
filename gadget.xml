@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>Aion Crafting Calculator </name>
+  <version>1.0.0.1</version>
+	<author name="Zenobius Jiricek">
+		<info url="http://airtonix.hostoi.com/projects/aion-craft-calc" /> 
+	</author>
+	<icons>
+		<icon src="img/logo.png" /> 
+	</icons>
+  <hosts>
+    <host name="desktop">
+      <base type="HTML" apiVersion="1.0.0" src="core.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+    </host>
+  </hosts>
+</gadget>
